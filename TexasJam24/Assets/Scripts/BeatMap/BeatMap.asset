@@ -18,190 +18,127 @@ MonoBehaviour:
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 0
     sec: 1
-    Track1: 1
-    Track2: 0
-    Track3: 0
-    Track4: 0
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 0
-    sec: 3
-    Track1: 0
-    Track2: 1
-    Track3: 0
-    Track4: 0
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 0
-    sec: 3
-    Track1: 1
-    Track2: 0
-    Track3: 1
-    Track4: 1
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 0
-    sec: 4
     Track1: 0
     Track2: 1
     Track3: 1
     Track4: 0
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 0
-    sec: 5
-    Track1: 0
-    Track2: 0
-    Track3: 1
-    Track4: 0
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 0
-    sec: 6
-    Track1: 0
-    Track2: 0
-    Track3: 0
-    Track4: 0
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 0
-    sec: 6
+    sec: 7
     Track1: 1
     Track2: 1
     Track3: 0
-    Track4: 1
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 0
-    sec: 6
-    Track1: 1
-    Track2: 1
-    Track3: 1
     Track4: 0
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 0
     sec: 8
     Track1: 0
-    Track2: 0
-    Track3: 1
-    Track4: 1
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 0
-    sec: 13
-    Track1: 1
-    Track2: 0
-    Track3: 0
-    Track4: 1
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 0
-    sec: 18
-    Track1: 0
-    Track2: 0
-    Track3: 1
-    Track4: 1
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 0
-    sec: 19
-    Track1: 1
-    Track2: 1
-    Track3: 0
-    Track4: 0
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 0
-    sec: 20
-    Track1: 1
     Track2: 1
     Track3: 1
     Track4: 1
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 0
-    sec: 23
+    sec: 9
     Track1: 1
     Track2: 0
     Track3: 0
-    Track4: 0
+    Track4: 1
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 0
-    sec: 23
+    sec: 15
     Track1: 0
-    Track2: 0
+    Track2: 1
     Track3: 1
     Track4: 0
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 0
-    sec: 25
+    sec: 22
     Track1: 0
-    Track2: 0
-    Track3: 0
+    Track2: 1
+    Track3: 1
     Track4: 0
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 0
-    sec: 25
-    Track1: 1
-    Track2: 0
-    Track3: 0
-    Track4: 0
+    sec: 27
+    Track1: 0
+    Track2: 1
+    Track3: 1
+    Track4: 1
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 0
-    sec: 29
+    sec: 28
     Track1: 1
     Track2: 1
-    Track3: 0
-    Track4: 1
+    Track3: 1
+    Track4: 0
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 0
     sec: 29
     Track1: 0
     Track2: 0
-    Track3: 0
-    Track4: 0
+    Track3: 1
+    Track4: 1
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 0
-    sec: 31
-    Track1: 0
-    Track2: 0
-    Track3: 0
-    Track4: 0
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 0
-    sec: 33
+    sec: 30
     Track1: 1
     Track2: 0
-    Track3: 1
-    Track4: 0
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 0
-    sec: 33
-    Track1: 0
-    Track2: 1
     Track3: 1
     Track4: 0
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 0
     sec: 35
-    Track1: 0
+    Track1: 1
+    Track2: 0
+    Track3: 0
+    Track4: 0
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 0
+    sec: 35
+    Track1: 1
     Track2: 1
-    Track3: 1
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 0
+    sec: 35
+    Track1: 1
+    Track2: 0
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 0
+    sec: 37
+    Track1: 1
+    Track2: 0
+    Track3: 0
     Track4: 0
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 0
     sec: 38
     Track1: 0
+    Track2: 1
+    Track3: 0
+    Track4: 0
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 0
+    sec: 39
+    Track1: 1
     Track2: 0
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 0
+    sec: 42
+    Track1: 0
+    Track2: 1
     Track3: 1
     Track4: 1
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 0
-    sec: 40
-    Track1: 1
-    Track2: 0
-    Track3: 1
-    Track4: 0
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 0
-    sec: 40
+    sec: 43
     Track1: 0
     Track2: 1
-    Track3: 1
-    Track4: 0
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 0
-    sec: 40
-    Track1: 1
-    Track2: 0
     Track3: 0
     Track4: 1
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
@@ -209,27 +146,34 @@ MonoBehaviour:
     sec: 43
     Track1: 1
     Track2: 1
-    Track3: 1
-    Track4: 1
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 0
-    sec: 44
-    Track1: 0
-    Track2: 1
     Track3: 0
-    Track4: 1
+    Track4: 0
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 0
-    sec: 51
-    Track1: 1
+    sec: 47
+    Track1: 0
     Track2: 0
     Track3: 1
     Track4: 1
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 0
-    sec: 56
+    sec: 50
+    Track1: 1
+    Track2: 1
+    Track3: 1
+    Track4: 0
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 0
+    sec: 54
     Track1: 0
     Track2: 0
+    Track3: 1
+    Track4: 0
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 0
+    sec: 57
+    Track1: 1
+    Track2: 1
     Track3: 1
     Track4: 0
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
@@ -237,71 +181,99 @@ MonoBehaviour:
     sec: 59
     Track1: 0
     Track2: 0
-    Track3: 1
-    Track4: 0
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 1
-    sec: 0
-    Track1: 0
-    Track2: 0
-    Track3: 1
-    Track4: 0
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 1
-    sec: 1
-    Track1: 1
-    Track2: 0
     Track3: 0
-    Track4: 0
+    Track4: 1
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 1
-    sec: 4
+    sec: 9
+    Track1: 1
+    Track2: 1
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 1
+    sec: 12
     Track1: 1
     Track2: 1
     Track3: 1
-    Track4: 1
+    Track4: 0
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 1
-    sec: 10
-    Track1: 0
+    sec: 16
+    Track1: 1
     Track2: 0
     Track3: 1
-    Track4: 1
+    Track4: 0
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 1
-    sec: 10
-    Track1: 0
-    Track2: 1
+    sec: 16
+    Track1: 1
+    Track2: 0
     Track3: 1
-    Track4: 1
+    Track4: 0
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 1
     sec: 21
     Track1: 0
-    Track2: 1
+    Track2: 0
     Track3: 1
     Track4: 0
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 1
-    sec: 27
-    Track1: 0
+    sec: 22
+    Track1: 1
     Track2: 0
     Track3: 1
     Track4: 1
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 1
-    sec: 33
+    sec: 23
+    Track1: 1
+    Track2: 0
+    Track3: 1
+    Track4: 1
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 1
+    sec: 28
+    Track1: 1
+    Track2: 1
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 1
+    sec: 29
+    Track1: 0
+    Track2: 0
+    Track3: 1
+    Track4: 0
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 1
+    sec: 29
+    Track1: 1
+    Track2: 1
+    Track3: 0
+    Track4: 0
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 1
+    sec: 29
     Track1: 1
     Track2: 1
     Track3: 1
     Track4: 0
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 1
-    sec: 34
+    sec: 31
+    Track1: 1
+    Track2: 0
+    Track3: 1
+    Track4: 1
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 1
+    sec: 32
     Track1: 1
     Track2: 1
-    Track3: 0
-    Track4: 1
+    Track3: 1
+    Track4: 0
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 1
     sec: 35
@@ -311,44 +283,23 @@ MonoBehaviour:
     Track4: 0
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 1
-    sec: 37
+    sec: 38
     Track1: 1
+    Track2: 0
+    Track3: 1
+    Track4: 1
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 1
+    sec: 45
+    Track1: 1
+    Track2: 0
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 1
+    sec: 46
+    Track1: 0
     Track2: 1
-    Track3: 1
-    Track4: 0
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 1
-    sec: 38
-    Track1: 0
-    Track2: 0
-    Track3: 0
-    Track4: 0
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 1
-    sec: 38
-    Track1: 0
-    Track2: 0
-    Track3: 0
-    Track4: 1
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 1
-    sec: 40
-    Track1: 0
-    Track2: 0
-    Track3: 1
-    Track4: 1
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 1
-    sec: 47
-    Track1: 0
-    Track2: 0
-    Track3: 0
-    Track4: 0
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 1
-    sec: 48
-    Track1: 1
-    Track2: 0
     Track3: 0
     Track4: 0
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
@@ -356,140 +307,140 @@ MonoBehaviour:
     sec: 49
     Track1: 1
     Track2: 0
-    Track3: 0
+    Track3: 1
     Track4: 1
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 1
-    sec: 56
-    Track1: 0
-    Track2: 0
-    Track3: 0
-    Track4: 1
+    sec: 50
+    Track1: 1
+    Track2: 1
+    Track3: 1
+    Track4: 0
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 1
-    sec: 58
+    sec: 50
     Track1: 1
     Track2: 0
     Track3: 1
     Track4: 1
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 2
-    sec: 1
+    sec: 2
     Track1: 1
-    Track2: 0
-    Track3: 1
-    Track4: 1
+    Track2: 1
+    Track3: 0
+    Track4: 0
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 2
     sec: 6
     Track1: 1
     Track2: 0
-    Track3: 1
+    Track3: 0
     Track4: 1
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 2
     sec: 8
     Track1: 1
     Track2: 1
-    Track3: 0
+    Track3: 1
+    Track4: 0
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 2
+    sec: 10
+    Track1: 0
+    Track2: 1
+    Track3: 1
     Track4: 0
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 2
     sec: 12
     Track1: 1
     Track2: 1
+    Track3: 0
+    Track4: 0
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 2
+    sec: 16
+    Track1: 0
+    Track2: 1
+    Track3: 1
+    Track4: 0
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 2
+    sec: 17
+    Track1: 0
+    Track2: 1
     Track3: 1
     Track4: 1
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 2
-    sec: 15
+    sec: 18
     Track1: 0
     Track2: 0
     Track3: 1
-    Track4: 0
+    Track4: 1
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 2
     sec: 18
     Track1: 0
     Track2: 1
     Track3: 0
-    Track4: 1
+    Track4: 0
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 2
+    sec: 18
+    Track1: 1
+    Track2: 1
+    Track3: 0
+    Track4: 0
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 2
     sec: 20
-    Track1: 1
+    Track1: 0
     Track2: 0
     Track3: 1
     Track4: 0
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 2
-    sec: 24
-    Track1: 0
-    Track2: 1
+    sec: 22
+    Track1: 1
+    Track2: 0
     Track3: 1
     Track4: 1
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 2
+    sec: 27
+    Track1: 0
+    Track2: 0
+    Track3: 1
+    Track4: 0
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 2
     sec: 28
     Track1: 1
     Track2: 0
-    Track3: 1
-    Track4: 0
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 2
-    sec: 28
-    Track1: 1
-    Track2: 1
     Track3: 0
-    Track4: 1
+    Track4: 0
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 2
     sec: 29
     Track1: 0
-    Track2: 0
-    Track3: 1
-    Track4: 1
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 2
-    sec: 29
-    Track1: 1
     Track2: 1
-    Track3: 1
+    Track3: 0
     Track4: 0
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 2
-    sec: 29
-    Track1: 1
-    Track2: 1
-    Track3: 0
-    Track4: 1
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 2
-    sec: 30
+    sec: 34
     Track1: 0
     Track2: 1
     Track3: 0
     Track4: 1
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 2
-    sec: 31
-    Track1: 0
-    Track2: 0
-    Track3: 0
-    Track4: 0
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 2
-    sec: 32
-    Track1: 0
-    Track2: 1
-    Track3: 0
-    Track4: 0
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 2
     sec: 36
     Track1: 1
     Track2: 0
-    Track3: 1
+    Track3: 0
     Track4: 1
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 2
@@ -497,6 +448,34 @@ MonoBehaviour:
     Track1: 1
     Track2: 1
     Track3: 0
+    Track4: 0
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 2
+    sec: 40
+    Track1: 1
+    Track2: 0
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 2
+    sec: 41
+    Track1: 1
+    Track2: 0
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 2
+    sec: 44
+    Track1: 1
+    Track2: 1
+    Track3: 0
+    Track4: 0
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 2
+    sec: 44
+    Track1: 0
+    Track2: 1
+    Track3: 0
     Track4: 1
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 2
@@ -511,207 +490,228 @@ MonoBehaviour:
     Track1: 0
     Track2: 1
     Track3: 0
-    Track4: 0
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 2
-    sec: 45
-    Track1: 0
-    Track2: 1
-    Track3: 1
     Track4: 1
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 2
-    sec: 46
-    Track1: 0
+    sec: 45
+    Track1: 1
     Track2: 1
-    Track3: 1
+    Track3: 0
     Track4: 1
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 2
     sec: 53
     Track1: 1
-    Track2: 0
-    Track3: 0
-    Track4: 1
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 2
-    sec: 54
-    Track1: 0
-    Track2: 0
-    Track3: 0
-    Track4: 1
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 2
-    sec: 55
-    Track1: 0
-    Track2: 0
+    Track2: 1
     Track3: 0
     Track4: 0
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 3
-    sec: 1
-    Track1: 1
-    Track2: 0
-    Track3: 1
-    Track4: 0
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 3
-    sec: 4
+    min: 2
+    sec: 56
     Track1: 1
     Track2: 1
     Track3: 0
     Track4: 1
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 2
+    sec: 59
+    Track1: 0
+    Track2: 0
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 3
-    sec: 4
+    sec: 1
     Track1: 1
+    Track2: 0
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 3
+    sec: 3
+    Track1: 0
     Track2: 1
     Track3: 0
     Track4: 0
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 3
     sec: 5
-    Track1: 1
-    Track2: 1
+    Track1: 0
+    Track2: 0
     Track3: 0
-    Track4: 1
+    Track4: 0
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 3
     sec: 6
     Track1: 0
-    Track2: 1
-    Track3: 0
-    Track4: 1
+    Track2: 0
+    Track3: 1
+    Track4: 0
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 3
-    sec: 10
+    sec: 8
     Track1: 0
     Track2: 1
     Track3: 0
-    Track4: 1
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 3
-    sec: 11
-    Track1: 1
-    Track2: 1
-    Track3: 1
     Track4: 0
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 3
-    sec: 11
-    Track1: 1
-    Track2: 1
-    Track3: 0
-    Track4: 0
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 3
-    sec: 13
-    Track1: 1
-    Track2: 0
-    Track3: 1
-    Track4: 1
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 3
     sec: 14
+    Track1: 1
+    Track2: 1
+    Track3: 1
+    Track4: 0
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 3
+    sec: 17
+    Track1: 1
+    Track2: 0
+    Track3: 0
+    Track4: 0
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 3
+    sec: 18
     Track1: 0
     Track2: 1
-    Track3: 0
-    Track4: 1
+    Track3: 1
+    Track4: 0
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 3
     sec: 19
     Track1: 0
-    Track2: 0
-    Track3: 0
-    Track4: 1
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 3
-    sec: 20
-    Track1: 1
-    Track2: 0
-    Track3: 1
-    Track4: 0
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 3
-    sec: 28
-    Track1: 0
-    Track2: 0
-    Track3: 0
-    Track4: 1
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 3
-    sec: 31
-    Track1: 1
-    Track2: 0
-    Track3: 1
-    Track4: 1
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 3
-    sec: 37
-    Track1: 1
-    Track2: 0
-    Track3: 0
-    Track4: 0
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 3
-    sec: 37
-    Track1: 0
-    Track2: 0
-    Track3: 0
-    Track4: 1
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 3
-    sec: 38
-    Track1: 1
     Track2: 1
     Track3: 1
+    Track4: 1
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 3
+    sec: 21
+    Track1: 1
+    Track2: 0
+    Track3: 0
+    Track4: 0
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 3
+    sec: 23
+    Track1: 1
+    Track2: 0
+    Track3: 1
+    Track4: 1
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 3
+    sec: 24
+    Track1: 1
+    Track2: 1
+    Track3: 0
+    Track4: 0
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 3
+    sec: 24
+    Track1: 0
+    Track2: 0
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 3
+    sec: 25
+    Track1: 0
+    Track2: 0
+    Track3: 0
+    Track4: 0
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 3
+    sec: 30
+    Track1: 1
+    Track2: 1
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 3
+    sec: 33
+    Track1: 1
+    Track2: 0
+    Track3: 1
+    Track4: 1
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 3
+    sec: 34
+    Track1: 0
+    Track2: 0
+    Track3: 0
     Track4: 1
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 3
     sec: 41
-    Track1: 1
+    Track1: 0
     Track2: 1
     Track3: 0
     Track4: 0
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 3
+    sec: 42
+    Track1: 0
+    Track2: 0
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 3
+    sec: 43
+    Track1: 1
+    Track2: 1
+    Track3: 0
+    Track4: 1
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 3
     sec: 45
     Track1: 0
-    Track2: 0
+    Track2: 1
     Track3: 1
     Track4: 1
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 3
-    sec: 47
+    sec: 46
+    Track1: 1
+    Track2: 1
+    Track3: 1
+    Track4: 0
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 3
+    sec: 46
+    Track1: 1
+    Track2: 0
+    Track3: 0
+    Track4: 0
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 3
+    sec: 48
+    Track1: 0
+    Track2: 0
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 3
+    sec: 49
+    Track1: 1
+    Track2: 1
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 3
+    sec: 55
     Track1: 1
     Track2: 1
     Track3: 0
     Track4: 0
   - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
     min: 3
-    sec: 52
-    Track1: 1
-    Track2: 1
-    Track3: 1
-    Track4: 1
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 3
-    sec: 53
-    Track1: 1
-    Track2: 0
-    Track3: 1
-    Track4: 0
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 3
-    sec: 56
-    Track1: 1
-    Track2: 0
-    Track3: 1
-    Track4: 1
-  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
-    min: 3
-    sec: 58
-    Track1: 1
+    sec: 57
+    Track1: 0
     Track2: 1
     Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+    min: 3
+    sec: 59
+    Track1: 0
+    Track2: 0
+    Track3: 1
     Track4: 0

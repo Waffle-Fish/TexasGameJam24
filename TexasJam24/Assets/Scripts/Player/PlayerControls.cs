@@ -1,7 +1,6 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -19,6 +18,7 @@ public class PlayerControls : MonoBehaviour
     private void OnDisable() {
         playerInput.SwitchTrack.Disable();
     }
+    
     private void Awake() {
         playerInput = new();
         playerInput.SwitchTrack.Track1.performed += SwitchTrack(1);

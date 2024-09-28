@@ -86,6 +86,27 @@ public class BeatMapSO : ScriptableObject
             Track3 = UnityEngine.Random.value < 0.5f,
             Track4 = UnityEngine.Random.value < 0.5f
         };
+
+        // Check if all tracks have a beat on them
+        if (b.Track1 && b.Track2 && b.Track3 && b.Track4) {
+            switch (UnityEngine.Random.Range(0, 4)) {
+                case 0:
+                    b.Track1 = false;
+                    break;
+                case 1:
+                    b.Track2 = false;
+                    break;
+                case 2:
+                    b.Track3 = false;
+                    break;
+                case 3:
+                    b.Track4 = false;
+                    break;
+                default:
+                    Debug.LogError("This shouldn't happen");
+                    break;
+            }
+        }
         return b;
     }
 }

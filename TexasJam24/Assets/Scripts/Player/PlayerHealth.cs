@@ -12,8 +12,11 @@ public class PlayerHealth : MonoBehaviour
     private CircleCollider2D circleCollider2D;
 
     private void Awake() {
-        currrentHealth = maxHealth;
         circleCollider2D = GetComponent<CircleCollider2D>();
+    }
+
+    private void Start() {
+        currrentHealth = maxHealth;
     }
 
     private void OnTriggerEnter2D(Collider2D other) {

@@ -1,0 +1,717 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec2fcc26ab231ab4aa8589a04546e512, type: 3}
+  m_Name: BeatMap
+  m_EditorClassIdentifier: 
+  numberOfBeats: 100
+  beatGameObject: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
+  beatMap:
+  - beatObject: {fileID: 0}
+    min: 0
+    sec: 0
+    Track1: 0
+    Track2: 1
+    Track3: 1
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 0
+    sec: 2
+    Track1: 0
+    Track2: 1
+    Track3: 1
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 0
+    sec: 3
+    Track1: 0
+    Track2: 0
+    Track3: 1
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 0
+    sec: 3
+    Track1: 0
+    Track2: 0
+    Track3: 1
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 0
+    sec: 4
+    Track1: 0
+    Track2: 0
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 0
+    sec: 5
+    Track1: 0
+    Track2: 1
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 0
+    sec: 5
+    Track1: 1
+    Track2: 0
+    Track3: 1
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 0
+    sec: 6
+    Track1: 1
+    Track2: 0
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 0
+    sec: 7
+    Track1: 0
+    Track2: 0
+    Track3: 1
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 0
+    sec: 7
+    Track1: 1
+    Track2: 1
+    Track3: 0
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 0
+    sec: 10
+    Track1: 1
+    Track2: 0
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 0
+    sec: 11
+    Track1: 1
+    Track2: 0
+    Track3: 1
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 0
+    sec: 11
+    Track1: 1
+    Track2: 1
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 0
+    sec: 14
+    Track1: 0
+    Track2: 1
+    Track3: 1
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 0
+    sec: 16
+    Track1: 0
+    Track2: 0
+    Track3: 0
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 0
+    sec: 18
+    Track1: 0
+    Track2: 0
+    Track3: 1
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 0
+    sec: 29
+    Track1: 0
+    Track2: 1
+    Track3: 1
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 0
+    sec: 35
+    Track1: 0
+    Track2: 0
+    Track3: 1
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 0
+    sec: 37
+    Track1: 0
+    Track2: 0
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 0
+    sec: 44
+    Track1: 1
+    Track2: 0
+    Track3: 1
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 0
+    sec: 45
+    Track1: 0
+    Track2: 0
+    Track3: 1
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 0
+    sec: 45
+    Track1: 0
+    Track2: 1
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 0
+    sec: 48
+    Track1: 0
+    Track2: 0
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 0
+    sec: 48
+    Track1: 0
+    Track2: 1
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 0
+    sec: 50
+    Track1: 1
+    Track2: 0
+    Track3: 0
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 0
+    sec: 51
+    Track1: 0
+    Track2: 0
+    Track3: 0
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 0
+    sec: 56
+    Track1: 1
+    Track2: 1
+    Track3: 0
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 1
+    sec: 2
+    Track1: 1
+    Track2: 0
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 1
+    sec: 8
+    Track1: 1
+    Track2: 1
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 1
+    sec: 14
+    Track1: 1
+    Track2: 0
+    Track3: 1
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 1
+    sec: 16
+    Track1: 0
+    Track2: 1
+    Track3: 1
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 1
+    sec: 19
+    Track1: 1
+    Track2: 0
+    Track3: 1
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 1
+    sec: 20
+    Track1: 1
+    Track2: 0
+    Track3: 1
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 1
+    sec: 21
+    Track1: 0
+    Track2: 1
+    Track3: 1
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 1
+    sec: 21
+    Track1: 1
+    Track2: 1
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 1
+    sec: 21
+    Track1: 1
+    Track2: 0
+    Track3: 1
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 1
+    sec: 22
+    Track1: 0
+    Track2: 1
+    Track3: 1
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 1
+    sec: 24
+    Track1: 1
+    Track2: 1
+    Track3: 1
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 1
+    sec: 27
+    Track1: 0
+    Track2: 0
+    Track3: 1
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 1
+    sec: 28
+    Track1: 1
+    Track2: 1
+    Track3: 1
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 1
+    sec: 32
+    Track1: 0
+    Track2: 1
+    Track3: 1
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 1
+    sec: 34
+    Track1: 1
+    Track2: 1
+    Track3: 1
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 1
+    sec: 35
+    Track1: 1
+    Track2: 0
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 1
+    sec: 37
+    Track1: 0
+    Track2: 1
+    Track3: 1
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 1
+    sec: 38
+    Track1: 1
+    Track2: 0
+    Track3: 0
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 1
+    sec: 38
+    Track1: 0
+    Track2: 0
+    Track3: 1
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 1
+    sec: 44
+    Track1: 0
+    Track2: 0
+    Track3: 0
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 1
+    sec: 45
+    Track1: 1
+    Track2: 1
+    Track3: 1
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 1
+    sec: 48
+    Track1: 0
+    Track2: 0
+    Track3: 1
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 1
+    sec: 49
+    Track1: 1
+    Track2: 1
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 1
+    sec: 55
+    Track1: 1
+    Track2: 0
+    Track3: 1
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 1
+    sec: 56
+    Track1: 1
+    Track2: 1
+    Track3: 1
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 2
+    sec: 0
+    Track1: 0
+    Track2: 1
+    Track3: 1
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 2
+    sec: 2
+    Track1: 1
+    Track2: 1
+    Track3: 0
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 2
+    sec: 3
+    Track1: 0
+    Track2: 0
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 2
+    sec: 3
+    Track1: 1
+    Track2: 0
+    Track3: 1
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 2
+    sec: 9
+    Track1: 0
+    Track2: 1
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 2
+    sec: 10
+    Track1: 1
+    Track2: 0
+    Track3: 1
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 2
+    sec: 16
+    Track1: 1
+    Track2: 0
+    Track3: 0
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 2
+    sec: 17
+    Track1: 0
+    Track2: 1
+    Track3: 0
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 2
+    sec: 23
+    Track1: 0
+    Track2: 0
+    Track3: 1
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 2
+    sec: 24
+    Track1: 0
+    Track2: 1
+    Track3: 0
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 2
+    sec: 32
+    Track1: 0
+    Track2: 1
+    Track3: 1
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 2
+    sec: 34
+    Track1: 1
+    Track2: 0
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 2
+    sec: 39
+    Track1: 0
+    Track2: 1
+    Track3: 0
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 2
+    sec: 40
+    Track1: 1
+    Track2: 0
+    Track3: 1
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 2
+    sec: 41
+    Track1: 0
+    Track2: 1
+    Track3: 1
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 2
+    sec: 44
+    Track1: 0
+    Track2: 0
+    Track3: 1
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 2
+    sec: 44
+    Track1: 1
+    Track2: 0
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 2
+    sec: 48
+    Track1: 0
+    Track2: 0
+    Track3: 1
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 2
+    sec: 48
+    Track1: 1
+    Track2: 1
+    Track3: 1
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 2
+    sec: 49
+    Track1: 0
+    Track2: 1
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 2
+    sec: 54
+    Track1: 1
+    Track2: 0
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 2
+    sec: 59
+    Track1: 1
+    Track2: 0
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 3
+    sec: 1
+    Track1: 0
+    Track2: 1
+    Track3: 1
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 3
+    sec: 2
+    Track1: 0
+    Track2: 0
+    Track3: 0
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 3
+    sec: 2
+    Track1: 1
+    Track2: 1
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 3
+    sec: 5
+    Track1: 1
+    Track2: 0
+    Track3: 1
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 3
+    sec: 8
+    Track1: 1
+    Track2: 0
+    Track3: 1
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 3
+    sec: 10
+    Track1: 0
+    Track2: 1
+    Track3: 1
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 3
+    sec: 11
+    Track1: 0
+    Track2: 0
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 3
+    sec: 11
+    Track1: 1
+    Track2: 1
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 3
+    sec: 14
+    Track1: 1
+    Track2: 0
+    Track3: 1
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 3
+    sec: 20
+    Track1: 1
+    Track2: 1
+    Track3: 1
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 3
+    sec: 24
+    Track1: 1
+    Track2: 0
+    Track3: 1
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 3
+    sec: 26
+    Track1: 1
+    Track2: 1
+    Track3: 1
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 3
+    sec: 28
+    Track1: 1
+    Track2: 0
+    Track3: 0
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 3
+    sec: 32
+    Track1: 1
+    Track2: 1
+    Track3: 1
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 3
+    sec: 35
+    Track1: 0
+    Track2: 1
+    Track3: 0
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 3
+    sec: 37
+    Track1: 1
+    Track2: 0
+    Track3: 1
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 3
+    sec: 38
+    Track1: 0
+    Track2: 1
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 3
+    sec: 42
+    Track1: 1
+    Track2: 0
+    Track3: 0
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 3
+    sec: 43
+    Track1: 0
+    Track2: 1
+    Track3: 0
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 3
+    sec: 47
+    Track1: 1
+    Track2: 1
+    Track3: 1
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 3
+    sec: 47
+    Track1: 1
+    Track2: 1
+    Track3: 1
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 3
+    sec: 48
+    Track1: 1
+    Track2: 0
+    Track3: 0
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 3
+    sec: 48
+    Track1: 1
+    Track2: 0
+    Track3: 1
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 3
+    sec: 48
+    Track1: 1
+    Track2: 1
+    Track3: 1
+    Track4: 1
+  - beatObject: {fileID: 0}
+    min: 3
+    sec: 51
+    Track1: 1
+    Track2: 0
+    Track3: 1
+    Track4: 0
+  - beatObject: {fileID: 0}
+    min: 3
+    sec: 59
+    Track1: 0
+    Track2: 0
+    Track3: 1
+    Track4: 1

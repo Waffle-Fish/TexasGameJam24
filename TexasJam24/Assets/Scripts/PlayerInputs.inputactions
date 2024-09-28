@@ -1,0 +1,94 @@
+{
+    "name": "PlayerInputs",
+    "maps": [
+        {
+            "name": "SwitchTrack",
+            "id": "fec5115d-f0b2-4b89-8dd2-fe8be782be03",
+            "actions": [
+                {
+                    "name": "Track1",
+                    "type": "Button",
+                    "id": "ffa4bbcf-b9d7-439e-9f3c-0e076e083852",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Track2",
+                    "type": "Button",
+                    "id": "9e3d50ac-ae29-477c-8f21-2536d2444a05",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Track3",
+                    "type": "Button",
+                    "id": "8229908b-d11f-462c-9bfd-5095b2eff611",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Track4",
+                    "type": "Button",
+                    "id": "fc73ca99-80da-476f-88fa-8d6b582fc0cc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c6673238-1e29-442a-926b-658103d64720",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Track1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4a291169-e2aa-4691-907d-e2adfe3a4302",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Track2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "91330917-953d-4a75-a884-3a5f86ab75ff",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Track3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d5236dc7-eaa9-42d0-b5cb-3d6f3269f922",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Track4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

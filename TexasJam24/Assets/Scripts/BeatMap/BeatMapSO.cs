@@ -35,6 +35,7 @@ public class BeatMapSO : ScriptableObject
         public bool Track4;
 
         public string Time { get { return $"{min.ToString("D1")} : {sec.ToString("D2")}";}}
+        public readonly int GetTimeInSeconds { get { return min * 60 + sec;}}
     }
 
     [TitleGroup("Dev Controls")]

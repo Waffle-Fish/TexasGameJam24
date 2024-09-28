@@ -1,0 +1,35 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PlayerHealth : MonoBehaviour
+{
+    [SerializeField]
+    private float maxHealth = 0;
+
+    private float currrentHealth;
+
+    private void Awake() {
+        currrentHealth = maxHealth;
+    }
+
+    private void OnTriggerEnter2D(Collider other) {
+        if (other.CompareTag("EnemyAttack")) {
+            TakeDamage();
+        }
+    }
+
+    private void TakeDamage()
+    {
+        currrentHealth--;
+        if (currrentHealth < 0) {
+            ProcessDeath();
+        }
+    }
+
+    private void ProcessDeath()
+    {
+        Debug.Log("Player has died!");
+    }
+}

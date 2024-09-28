@@ -9,12 +9,14 @@ public class PlayerHealth : MonoBehaviour
     private float maxHealth = 0;
 
     private float currrentHealth;
+    private CircleCollider2D circleCollider2D;
 
     private void Awake() {
         currrentHealth = maxHealth;
+        circleCollider2D = GetComponent<CircleCollider2D>();
     }
 
-    private void OnTriggerEnter2D(Collider other) {
+    private void OnTriggerEnter2D(Collider2D other) {
         if (other.CompareTag("EnemyAttack")) {
             TakeDamage();
         }
@@ -22,8 +24,8 @@ public class PlayerHealth : MonoBehaviour
 
     private void TakeDamage()
     {
-        currrentHealth--;
-        if (currrentHealth < 0) {
+        currrentHealth -= 1;
+        if (currrentHealth <= 0) {
             ProcessDeath();
         }
     }

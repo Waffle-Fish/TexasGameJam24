@@ -24,8 +24,8 @@ public class BeatMapSO : ScriptableObject
         [Range(0,59)]
         public int sec;
 
-        [HorizontalGroup("$Time/Map/Split/Left/Timing/Speed")]
-        [Min(0)]
+        [BoxGroup("$Time/Map/Split/Left/Speed")]
+        [MinValue(0)]
         public int speed;
 
         [VerticalGroup("$Time/Map/Split/Right")]

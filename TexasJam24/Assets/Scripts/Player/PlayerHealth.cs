@@ -8,8 +8,8 @@ using UnityEngine.Playables;
 public class PlayerHealth : MonoBehaviour
 {
     [Header("Health")]
-    [SerializeField]
-    private int maxHealth = 0;
+    // [SerializeField]
+    private int maxHealth;
     [SerializeField]
     List<GameObject> heartImages;
 
@@ -22,14 +22,12 @@ public class PlayerHealth : MonoBehaviour
 
     private int currrentHealth;
     private CircleCollider2D circleCollider2D;
-    private AudioSource jukebox;
-
     private void Awake() {
         circleCollider2D = GetComponent<CircleCollider2D>();
-        jukebox = JukeboxController.Instance.GetComponent<AudioSource>();
     }
 
     private void Start() {
+        maxHealth = 3;
         currrentHealth = maxHealth;
     }
 
@@ -58,7 +56,6 @@ public class PlayerHealth : MonoBehaviour
 
         // Reveal Death Screen
         deathScreen.SetActive(true);
-        jukebox.Stop();
-        jukebox.PlayOneShot(deathMusic);
+        JukeboxController.Instance.PlayOneShot(deathMusic);
     }
 }

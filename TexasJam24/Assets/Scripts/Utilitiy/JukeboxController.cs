@@ -37,4 +37,13 @@ public class JukeboxController : MonoBehaviour
     public float GetAudioClipDuration() {
         return audioSource.clip.length;
     }
+
+    public void Stop() {
+        audioSource.Stop();
+    }
+
+    public void PlayOneShot(AudioClip ac) {
+        audioSource.Stop();
+        audioSource.PlayOneShot(ac);
+    }
 }

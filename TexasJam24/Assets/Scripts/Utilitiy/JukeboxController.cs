@@ -11,11 +11,18 @@ public class JukeboxController : MonoBehaviour
     [ButtonGroup("Test Functions/Resume")]
     public void ButtonResume() { Resume(); }
 
-    public static JukeboxController JukeboxControllerInstance;
+    public static JukeboxController Instance { get; private set; }
     private AudioSource audioSource;
 
     private void Awake() {
-        JukeboxControllerInstance = this;
+        if (Instance != null && Instance != this) 
+        { 
+            Destroy(this); 
+        } 
+        else 
+        { 
+            Instance = this; 
+        } 
         audioSource = GetComponent<AudioSource>();
     }
 

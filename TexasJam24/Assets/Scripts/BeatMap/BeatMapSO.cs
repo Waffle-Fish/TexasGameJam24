@@ -15,14 +15,18 @@ public class BeatMapSO : ScriptableObject
         [HorizontalGroup("$Time/Map/Split")]
         [VerticalGroup("$Time/Map/Split/Left")]
         [BoxGroup("$Time/Map/Split/Left/Timing")]
-        [HorizontalGroup("$Time/Map/Split/Left/Timing/Split")]
-        [VerticalGroup("$Time/Map/Split/Left/Timing/Split/Left")]
+        [HorizontalGroup("$Time/Map/Split/Left/Timing/Time")]
+        [VerticalGroup("$Time/Map/Split/Left/Timing/Time/Left")]
         [Range(0, 4)]
         public int min;
         
-        [VerticalGroup("$Time/Map/Split/Left/Timing/Split/Right")]
+        [VerticalGroup("$Time/Map/Split/Left/Timing/Time/Right")]
         [Range(0,59)]
         public int sec;
+
+        [HorizontalGroup("$Time/Map/Split/Left/Timing/Speed")]
+        [Min(0)]
+        public int speed;
 
         [VerticalGroup("$Time/Map/Split/Right")]
         [FoldoutGroup("$Time/Map/Split/Right/Tracks", GroupName = "Beats on Track")]
@@ -40,6 +44,7 @@ public class BeatMapSO : ScriptableObject
 
     [TitleGroup("Dev Controls")]
     public int numberOfBeats = 0;
+    public int globalBeatSpeed = 0;
     public GameObject beatGameObject;
     
     public string RandomXBeats { get { return "Randomize " + numberOfBeats + " beats";}}
@@ -70,6 +75,11 @@ public class BeatMapSO : ScriptableObject
         });
     }
 
+    [ButtonGroup("Dev Controls/Change all beat speed")]
+    private void ButtonChangeAllSpeed() {
+        SetAllBeatToSameSpeed();
+    }
+
     [TitleGroup("BeatMap")]
     public List<Beat> beatMap;
 
@@ -80,6 +90,7 @@ public class BeatMapSO : ScriptableObject
 
             min = UnityEngine.Random.Range(0, 4),
             sec = UnityEngine.Random.Range(0, 60),
+            speed = UnityEngine.Random.Range(5,30),
 
             Track1 = UnityEngine.Random.value < 0.5f,
             Track2 = UnityEngine.Random.value < 0.5f,
@@ -108,5 +119,14 @@ public class BeatMapSO : ScriptableObject
             }
         }
         return b;
+    }
+
+    private void SetAllBeatToSameSpeed() {
+        for (int i = 0; i < beatMap.Count; i++)
+        {
+            Beat b = beatMap[i];
+            b.speed = globalBeatSpeed;
+            beatMap[i] = b;
+        }
     }
 }

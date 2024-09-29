@@ -36,21 +36,25 @@ public class BeatMapManager : MonoBehaviour
         if (beat.GetTimeInSeconds <= currentTimer) {
             if (beat.Track1) {
                 GameObject g = objPool.GetPooledObject();
+                g.GetComponent<SpellBehavior>().SetMoveForce(beat.speed);
                 g.SetActive(true);
                 g.transform.position = trackTransform[0].position;
             }
             if (beat.Track2) {
                 GameObject g = objPool.GetPooledObject();
+                g.GetComponent<SpellBehavior>().SetMoveForce(beat.speed);
                 g.SetActive(true);
                 g.transform.position = trackTransform[1].position;
             }
             if (beat.Track3) {
                 GameObject g = objPool.GetPooledObject();
+                g.GetComponent<SpellBehavior>().SetMoveForce(beat.speed);
                 g.SetActive(true);
                 g.transform.position = trackTransform[2].position;
             }
             if (beat.Track4) {
                 GameObject g = objPool.GetPooledObject();
+                g.GetComponent<SpellBehavior>().SetMoveForce(beat.speed);
                 g.SetActive(true);
                 g.transform.position = trackTransform[3].position;
             }

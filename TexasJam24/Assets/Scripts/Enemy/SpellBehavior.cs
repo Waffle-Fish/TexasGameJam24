@@ -17,6 +17,12 @@ public class SpellBehavior : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
+        if (other.gameObject.CompareTag("EnemyAttack")) { return; };
+        // Debug.Log(gameObject.name + " hit " + other.gameObject.name);
         gameObject.SetActive(false);
+    }
+
+    public void SetMoveForce(float v) {
+        moveForce = v;
     }
 }

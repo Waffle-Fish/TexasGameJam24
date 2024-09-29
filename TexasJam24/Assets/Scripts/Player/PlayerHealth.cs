@@ -18,14 +18,15 @@ public class PlayerHealth : MonoBehaviour
     GameObject deathScreen;
 
     [SerializeField]
-    Sprite deathSprite;
-
+    AudioClip deathMusic;
 
     private int currrentHealth;
     private CircleCollider2D circleCollider2D;
+    private AudioSource jukebox;
 
     private void Awake() {
         circleCollider2D = GetComponent<CircleCollider2D>();
+        jukebox = JukeboxController.Instance.GetComponent<AudioSource>();
     }
 
     private void Start() {
@@ -51,11 +52,13 @@ public class PlayerHealth : MonoBehaviour
     {
         // Play Death Animation
         GetComponent<PlayerControls>().enabled = false;
+        GetComponent<Collider2D>().enabled = false;
         GetComponent<PlayableDirector>().Play();
 
 
         // Reveal Death Screen
         deathScreen.SetActive(true);
-
+        jukebox.Stop();
+        jukebox.PlayOneShot(deathMusic);
     }
 }

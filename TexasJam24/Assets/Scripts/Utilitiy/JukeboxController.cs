@@ -26,17 +26,15 @@ public class JukeboxController : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
     }
 
-    private void Update() {
-        // if (!audioSource.isPlaying) {
-
-        // }
-    }
-
     public void Pause() {
         audioSource.Pause();
     }
 
     public void Resume() {
         audioSource.UnPause();
+    }
+
+    public float GetAudioClipDuration() {
+        return audioSource.clip.length;
     }
 }

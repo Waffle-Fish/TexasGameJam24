@@ -1695,7 +1695,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &384983392
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4896,7 +4896,7 @@ MonoBehaviour:
   - {fileID: 1252900409}
   - {fileID: 1456926523}
   - {fileID: 1704487435}
-  beatMapSO: {fileID: 11400000, guid: 7103dc7704d5a0340aa8ec392f66abd9, type: 2}
+  beatMapSO: {fileID: 11400000, guid: 562941a430d89ba459fb6d31d258565b, type: 2}
 --- !u!114 &1157609130
 MonoBehaviour:
   m_ObjectHideFlags: 0

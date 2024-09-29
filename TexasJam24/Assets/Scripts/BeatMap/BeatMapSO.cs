@@ -8,7 +8,7 @@ public class BeatMapSO : ScriptableObject
 {
     [Serializable]
     public struct Beat {
-        [FoldoutGroup("$Time")]
+        [FoldoutGroup("$Time",expanded:true)]
         public GameObject beatObject;
 
         [TitleGroup("$Time/Map")]
@@ -21,15 +21,15 @@ public class BeatMapSO : ScriptableObject
         public int min;
         
         [VerticalGroup("$Time/Map/Split/Left/Timing/Time/Right")]
-        [Range(0,59)]
-        public int sec;
+        [Range(0,60f)]
+        public float sec;
 
         [BoxGroup("$Time/Map/Split/Left/Speed")]
         [MinValue(0)]
         public int speed;
 
         [VerticalGroup("$Time/Map/Split/Right")]
-        [FoldoutGroup("$Time/Map/Split/Right/Tracks", GroupName = "Beats on Track")]
+        [FoldoutGroup("$Time/Map/Split/Right/Tracks",expanded:true, GroupName = "Beats on Track")]
         public bool Track1;
         [FoldoutGroup("$Time/Map/Split/Right/Tracks")]
         public bool Track2;
@@ -38,8 +38,8 @@ public class BeatMapSO : ScriptableObject
         [FoldoutGroup("$Time/Map/Split/Right/Tracks")]
         public bool Track4;
 
-        public string Time { get { return $"{min.ToString("D1")} : {sec.ToString("D2")}";}}
-        public readonly int GetTimeInSeconds { get { return min * 60 + sec;}}
+        public string Time { get { return $"{min.ToString("D1")} : {sec:00.0}";}}
+        public readonly float GetTimeInSeconds { get { return min * 60 + sec;}}
     }
 
     [TitleGroup("Dev Controls")]
@@ -51,6 +51,25 @@ public class BeatMapSO : ScriptableObject
     [ButtonGroup("Dev Controls/Clear BeatMap")]
     private void ClearBeatMap() {
         beatMap.Clear();
+    }
+
+    [ButtonGroup("Dev Controls/Empty BeatMap")]
+    private void CreateEmptyBeatMap() {
+        ClearBeatMap();
+        for (int i = 0; i < numberOfBeats; i++)
+        {
+            beatMap.Add(new Beat());
+        }
+    }
+
+    [ButtonGroup("Dev Controls/ApplyGameObject")]
+    private void ApplyGlobalGameObject() {
+        for (int i = 0; i < numberOfBeats; i++)
+        {
+            Beat b = beatMap[i];
+            b.beatObject = beatGameObject;
+            beatMap[i] = b;
+        }
     }
 
     [ButtonGroup("Dev Controls/$RandomXBeats")]
@@ -75,8 +94,8 @@ public class BeatMapSO : ScriptableObject
         });
     }
 
-    [ButtonGroup("Dev Controls/Change all beat speed")]
-    private void ButtonChangeAllSpeed() {
+    [ButtonGroup("Dev Controls/ChangeBeatSpeed")]
+    private void ApplyGlobalSpeed() {
         SetAllBeatToSameSpeed();
     }
 

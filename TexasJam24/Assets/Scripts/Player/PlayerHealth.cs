@@ -1,14 +1,27 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.Playables;
 
 public class PlayerHealth : MonoBehaviour
 {
+    [Header("Health")]
     [SerializeField]
-    private float maxHealth = 0;
+    private int maxHealth = 0;
+    [SerializeField]
+    List<GameObject> heartImages;
 
-    private float currrentHealth;
+    [Header("Death")]
+    [SerializeField]
+    GameObject deathScreen;
+
+    [SerializeField]
+    Sprite deathSprite;
+
+
+    private int currrentHealth;
     private CircleCollider2D circleCollider2D;
 
     private void Awake() {
@@ -27,6 +40,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void TakeDamage()
     {
+        heartImages[math.max(0, currrentHealth-1)].SetActive(false);
         currrentHealth -= 1;
         if (currrentHealth <= 0) {
             ProcessDeath();
@@ -35,6 +49,13 @@ public class PlayerHealth : MonoBehaviour
 
     private void ProcessDeath()
     {
-        Debug.Log("Player has died!");
+        // Play Death Animation
+        GetComponent<PlayerControls>().enabled = false;
+        GetComponent<PlayableDirector>().Play();
+
+
+        // Reveal Death Screen
+        deathScreen.SetActive(true);
+
     }
 }

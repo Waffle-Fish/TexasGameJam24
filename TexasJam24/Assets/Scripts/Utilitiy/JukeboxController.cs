@@ -5,6 +5,11 @@ using UnityEngine;
 
 public class JukeboxController : MonoBehaviour
 {
+    [TitleGroup("Variables")]
+    [SerializeField]
+    [Tooltip("Delay to add when playing")]
+    private float delay;
+
     [TitleGroup("Test Functions")]
     [ButtonGroup("Test Functions/Pause")]
     public void ButtonPause() { Pause(); }
@@ -24,6 +29,7 @@ public class JukeboxController : MonoBehaviour
             Instance = this; 
         } 
         audioSource = GetComponent<AudioSource>();
+        audioSource.PlayDelayed(delay);
     }
 
     public void Pause() {
@@ -45,5 +51,10 @@ public class JukeboxController : MonoBehaviour
     public void PlayOneShot(AudioClip ac) {
         audioSource.Stop();
         audioSource.PlayOneShot(ac);
+    }
+
+    public void Play() {
+        audioSource.Stop();
+        audioSource.Play();
     }
 }

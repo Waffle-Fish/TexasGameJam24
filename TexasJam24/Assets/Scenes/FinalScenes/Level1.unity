@@ -1802,8 +1802,6 @@ PlayableDirector:
     value: {fileID: 950578607}
   - key: {fileID: -5914067090244929602, guid: 39cb7b8c30dfb0d45aea288ed8486658, type: 2}
     value: {fileID: 1125851821}
-  - key: {fileID: 1446453183702246009, guid: 39cb7b8c30dfb0d45aea288ed8486658, type: 2}
-    value: {fileID: 786384271}
   - key: {fileID: 1393731304547055751, guid: 39cb7b8c30dfb0d45aea288ed8486658, type: 2}
     value: {fileID: 2127170861}
   m_ExposedReferences:
@@ -3582,11 +3580,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!1 &786384271 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4559561463453401450, guid: 5cb0353a2dc5d3d49b7c7448dae764aa, type: 3}
-  m_PrefabInstance: {fileID: 7235117449889083840}
-  m_PrefabAsset: {fileID: 0}
 --- !u!82 &786384273 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 5203116275836358354, guid: 5cb0353a2dc5d3d49b7c7448dae764aa, type: 3}
@@ -4279,7 +4272,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1066518859
 Transform:
   m_ObjectHideFlags: 0
@@ -4857,6 +4850,7 @@ GameObject:
   - component: {fileID: 1157609128}
   - component: {fileID: 1157609129}
   - component: {fileID: 1157609130}
+  - component: {fileID: 1157609131}
   m_Layer: 0
   m_Name: BeatMap Manager
   m_TagString: Untagged
@@ -4897,6 +4891,7 @@ MonoBehaviour:
   - {fileID: 1456926523}
   - {fileID: 1704487435}
   beatMapSO: {fileID: 11400000, guid: 562941a430d89ba459fb6d31d258565b, type: 2}
+  spawnOffset: -3
 --- !u!114 &1157609130
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4912,6 +4907,19 @@ MonoBehaviour:
   objectToCopy: {fileID: 958047563224099148, guid: 9fd273146cf7d784a992f648386bed1c, type: 3}
   maxObjectCount: 50
   objectPool: []
+--- !u!114 &1157609131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157609127}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 029da8e4654c03541b1ec5554ba5d169, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 0
 --- !u!1 &1225118401
 GameObject:
   m_ObjectHideFlags: 0
@@ -9491,14 +9499,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2539411433432922528, guid: 5cb0353a2dc5d3d49b7c7448dae764aa, type: 3}
+      propertyPath: delay
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4559561463453401450, guid: 5cb0353a2dc5d3d49b7c7448dae764aa, type: 3}
       propertyPath: m_Name
       value: Jukebox
+      objectReference: {fileID: 0}
+    - target: {fileID: 4559561463453401450, guid: 5cb0353a2dc5d3d49b7c7448dae764aa, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5203116275836358354, guid: 5cb0353a2dc5d3d49b7c7448dae764aa, type: 3}
+      propertyPath: Priority
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5203116275836358354, guid: 5cb0353a2dc5d3d49b7c7448dae764aa, type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 78f72aefb9632054997e30520dbd0d1c, type: 3}
+    - target: {fileID: 5203116275836358354, guid: 5cb0353a2dc5d3d49b7c7448dae764aa, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8546398519672293198, guid: 5cb0353a2dc5d3d49b7c7448dae764aa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

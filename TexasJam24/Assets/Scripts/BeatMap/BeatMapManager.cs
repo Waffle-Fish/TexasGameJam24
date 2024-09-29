@@ -11,6 +11,10 @@ public class BeatMapManager : MonoBehaviour
     [SerializeField]
     BeatMapSO beatMapSO;
 
+    [SerializeField]
+    [Tooltip("Increase or decrease delay to when the beats spawn")]
+    private float spawnOffset;
+
     ObjectPooler objPool;
 
     float currentTimer;
@@ -21,7 +25,7 @@ public class BeatMapManager : MonoBehaviour
     }
 
     private void Start() {
-        currentTimer = 0f;
+        currentTimer = 0;
     }
 
     private void Update() {
@@ -33,7 +37,7 @@ public class BeatMapManager : MonoBehaviour
     private void ProcessBeatmap()
     {        
         var beat = beatMapSO.beatMap[latestBeatMapInd];
-        if (beat.GetTimeInSeconds <= currentTimer) {
+        if (beat.GetTimeInSeconds + spawnOffset <= currentTimer) {
             if (beat.Track1) {
                 GameObject g = objPool.GetPooledObject();
                 g.GetComponent<SpellBehavior>().SetMoveForce(beat.speed);

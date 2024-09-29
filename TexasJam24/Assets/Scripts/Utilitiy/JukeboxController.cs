@@ -27,9 +27,9 @@ public class JukeboxController : MonoBehaviour
     }
 
     private void Update() {
-        if (!audioSource.isPlaying) {
+        // if (!audioSource.isPlaying) {
 
-        }
+        // }
     }
 
     public void Pause() {

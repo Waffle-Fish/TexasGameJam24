@@ -1695,7 +1695,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &384983392
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4359,6 +4359,11 @@ MonoBehaviour:
   - {fileID: 2020804210}
   - {fileID: 464208062}
   - {fileID: 597525326}
+  playerSprites:
+  - {fileID: 1826223081, guid: 248c56898aa312149bf5e61a2204d6c0, type: 3}
+  - {fileID: 15570893, guid: 248c56898aa312149bf5e61a2204d6c0, type: 3}
+  - {fileID: -1228155178, guid: 248c56898aa312149bf5e61a2204d6c0, type: 3}
+  - {fileID: -439211919, guid: 248c56898aa312149bf5e61a2204d6c0, type: 3}
 --- !u!320 &1066518864
 PlayableDirector:
   m_ObjectHideFlags: 0

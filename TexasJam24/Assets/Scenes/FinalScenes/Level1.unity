@@ -5059,7 +5059,7 @@ MonoBehaviour:
   - {fileID: 1252900409}
   - {fileID: 1456926523}
   - {fileID: 1704487435}
-  beatMapSO: {fileID: 11400000, guid: 562941a430d89ba459fb6d31d258565b, type: 2}
+  beatMapSO: {fileID: 11400000, guid: cdb9f92bd5d8d224eb97fb1f84b844ce, type: 2}
   spawnOffset: -3
 --- !u!114 &1157609130
 MonoBehaviour:
@@ -10005,7 +10005,7 @@ PrefabInstance:
     - target: {fileID: 5203116275836358354, guid: 5cb0353a2dc5d3d49b7c7448dae764aa, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 765bcb29c891ea34986a5e8b4ccc4a04, type: 3}
+      objectReference: {fileID: 8300000, guid: 78f72aefb9632054997e30520dbd0d1c, type: 3}
     - target: {fileID: 5203116275836358354, guid: 5cb0353a2dc5d3d49b7c7448dae764aa, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0

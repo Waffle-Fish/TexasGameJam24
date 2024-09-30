@@ -526,7 +526,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &135999160
 Transform:
   m_ObjectHideFlags: 0
@@ -1801,7 +1801,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &384983392
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4621,6 +4621,8 @@ PlayableDirector:
     value: {fileID: 135999162}
   - key: {fileID: -1509639714207848498, guid: 2dbc96411119a6347bbe93da83a51b3b, type: 2}
     value: {fileID: 1613326844}
+  - key: {fileID: -3586962423314366001, guid: 2dbc96411119a6347bbe93da83a51b3b, type: 2}
+    value: {fileID: 1613326843}
   m_ExposedReferences:
     m_References:
     - b5201eaa11f3cc04c86d0680fec2ca55: {fileID: 135999159}
@@ -6885,7 +6887,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &1613326844
 Animator:
   serializedVersion: 5
@@ -10003,7 +10005,7 @@ PrefabInstance:
     - target: {fileID: 5203116275836358354, guid: 5cb0353a2dc5d3d49b7c7448dae764aa, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 78f72aefb9632054997e30520dbd0d1c, type: 3}
+      objectReference: {fileID: 8300000, guid: 765bcb29c891ea34986a5e8b4ccc4a04, type: 3}
     - target: {fileID: 5203116275836358354, guid: 5cb0353a2dc5d3d49b7c7448dae764aa, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0
